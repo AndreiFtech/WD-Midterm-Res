@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(60, 165, 181);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    margin: 0 8vw 0 8vw;
+    padding: 0.2em;
+    border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: 0;
+}
+
+.nav1{
+    margin-right: 76%;
+    margin-top: 3rem;
+
+    img.NekoJp{
+        width: 121px;
+        height: auto;
+    }
+}
+
+p.link{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 18px;
+    margin: 1.3rem 0.2rem 0 0;
+}
+
+.nav2{
+    margin-top: 1.1rem;
+
+    img.instagram{
+        width: 115px;
+        height: auto;
+    }
+}
+
+.margin{
+    border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
+    margin: 0 5rem 0 5rem;
+    .hero{
+        background-color: rgb(60, 165, 181);
+        border-radius: 30px;
+        border: 1px solid #383838; /* outline guide for sectioning */
+        margin-top: 5rem;
+        height: 89.5vh;
+        color: rgb(255, 255, 255);
+        display: flex;
+            .hero_left{
+                width: 40vw;
+                border: 0px solid #000000; /* outline guide for sectioning */
+                display: flex;
+                justify-content: center;
+
+                img.dreiprofile{
+                width: 73%;
+                height: auto;
+                }
+             }
+             .hero_right{
+                width: 50vw;
+                border: 0px solid rgb(165, 42, 42); /* outline guide for sectioning */
+                margin-right: 4em;
+                text-align: right;
+
+                h1.head1{
+                    margin: 7rem 0 0 0;
+                    font-size: 85px;
+                    line-height: 60px;
+                    font-weight: lighter;
+                }
+
+                h2.head2{
+                    font-size: 85px;
+                    color: rgb(165, 42, 42);
+                    line-height: 90px;
+                    margin: 0 0 8rem 0;
+                    font-weight: 800;
+                }
+
+                h2.subhead1{
+                    font-size: 32px;
+                    font-weight: normal;
+                }
+
+                p{
+                    line-height: 24px;
+                }
+             }
+    }
+}
+
+section.content_container{
+    border: 0px solid rgb(0, 0, 0); /* outline guide for sectioning */
+    margin-top: 8rem;
+    height: 99vh;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+
+    h1.header{
+        border: 0px solid #000000;
+        color: #000000;
+        margin: 0 0rem 1rem 2 rem;
+        font-size: 42px;
+    }
+
+    .content_left{
+        img.artwork{
+            width: 250px; /* set width */
+            height: 300px; /* set height */
+        }
+        img.photography{
+            width: 300x; /* set width */
+            height: 300px; /*set height */
+        }
+    }
+}
+
+.content_right{
+    border: 2 solid #000000; /* outline guide for sectioning */
+    width: 70vw;
+
+    .content_right_container{
+        display: flex;
+        height: 87.5vw;
+        border: 0px solid #000000; /* outline guide for sectioning */
+
+        h4{
+            text-align: center;
+        }
+
+        p{
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            color: #000000;
+        }
+
+        .content_mcis{
+            margin: 0 2rem 0 0;
+
+            .content_bg_mcis{
+                border-radius: 30px;
+                border: 1px solid #000000; /* outline guide for sectioning */
+                background-image: url('/assets/img/mcis.jpg');
+                background-size: cover;
+                background-position: cover;
+                width: 15.8vw;
+                height: 35vh;
+            }
+        }
+
+        .content_feurm{
+            margin: 0 2 rem 0 0;
+
+            .content_bg_feurm{
+                border-radius: 30px;
+                border: 1px solid #000000;/* outline guide for sectioning */
+                background-image: url('/assets/img/feurm.jpg');
+                background-size: cover;
+                background-position: cover;
+                width: 15.8vw;
+                height: 35vh;
+            }
+        }
+
+        .content_feutech{
+            margin: 0 2 rem 0 0;
+
+            .content_bg_feutech{
+                border-radius: 30px;
+                border: 1px solid #000000; /* outline guide for sectioning */
+                background-image: url('/assets/img/feutech.png');
+                background-size: cover;
+                background-position: cover;
+                width: 15.8vw;
+                height: 35vh;
+            }
+        }
+    }
+}
